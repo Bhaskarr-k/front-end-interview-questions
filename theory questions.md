@@ -1,4 +1,4 @@
-# HTML interview questions?
+# what is HTML?
 - HTMl stands for hyper text markup langauge.it is a standared text formating for developing web pages released in 1993.
 - HTML is a language that  is interpreted by browser and it tells the browser what to display and how to display.
 - HTML is an importent language to learn if anyone wants to work in the development domain .
@@ -23,4 +23,3 @@
   |   <         |  &less than;          |   &#60;          |
   |    >        |  &greater than  |    &#62;       |
   |&            |  &amp;        |     &#38;        |
-  
