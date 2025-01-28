@@ -23,3 +23,56 @@
   |   <         |  &less than;          |   &#60;          |
   |    >        |  &greater than  |    &#62;       |
   |&            |  &amp;        |     &#38;        |
+# what are diffrent types of lists in HTML?
+- in java script there are 3 types of lists
+-  ordered list 
+   unordered list 
+
+   description list
+
+## ordered list:
+- An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+
+- The list items will be marked with numbers by default:
+## unorderd list:
+- An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+
+- The list items will be marked with bullets (small black circles) by default:
+
+- Example:
+- <ul>
+     <li>Coffee</li>
+     <li>Tea</li>
+     <li>Milk</li>
+- </ul>
+
+## HTMl description list:
+- HTML also supports description lists.
+
+- A description list is a list of terms, with a description of each term.
+
+- The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:
+- example:
+- <dl>
+
+    <dt>Coffee</dt>
+
+    <dd>- black hot drink</dd>
+
+    <dt>Milk</dt>
+
+    <dd>- white cold drink</dd>
+
+</dl>
+
+# whar are the "class" attribute in html?
+- the class attribute is used to specify the class name for an HTML element.
+- multiple elements in HTML can have the same class value.
+- also it is mainly use to assciate the styles wiritten in the stylesheet with the HTML elements.
+#  what is the diffrence between the **id** attribute and the **class** attribute if HTML elements?
+- multiple elements in HTML can have the same clas value, where as a value of id attribute of one element cannot be associated with another HTML element.
+# define multiple form data?
+- mulitpart form data is one of the values of the enctype attribute.
+- 
+
+
