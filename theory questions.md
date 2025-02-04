@@ -14,12 +14,14 @@
 - No styling or complex features.
 ## HTML 2.0 (1995)
 - Standardized the basic features of HTML 1.0.
-- Added support for forms (<form>, <input>, <textarea>, <button>).
+- 
 - Still lacked support for complex layouts and styling.
+
 ## HTML 3.2 (1997)
 - Introduced tables (<table>), image alignment, and JavaScript.
 - First version officially supported by W3C.
-- Introduced the <font> tag for styling (now obsolete).
+- Introduced the font  tag for styling (now obsolete).
+
 ## HTML 4.01 (1999)
 - Introduced CSS support for styling.
 - Improved forms with new attributes.
@@ -27,19 +29,19 @@
 - Provided three versions:
 -**Strict**: No deprecated elements.
 - **Transitional**: Allowed older elements.
-- **Frameset**: Allowed the use of <frameset> for dividing web pages.
+- **Frameset**: Allowed the use of frameset for dividing web pages.
 # XHTML (2000)
 - A stricter version of HTML 4.01, following XML rules.
 - Required properly nested tags and lowercase tag names.
-- Example: <img src="image.jpg" alt="Image" /> (self-closing tags).
+- 
 - More structured but less flexible than HTML.
-6. HTML5 (2014 - Present)
+## HTML5 (2014 - Present)
 The latest and most powerful version of HTML.
 Introduced:
-Semantic elements (<article>, <section>, <nav>, <header>, <footer>, etc.).
-Multimedia support (<video>, <audio>).
+Semantic elements (article, section, nav, header, footer, etc.).
+Multimedia support (video, audio).
 Canvas API for graphics and animations.
-New form elements (<date>, <email>, <number>).
+New form elements (date, email, number).
 Better mobile compatibility and responsive design.
 ### Comparison of Key Features
 - HTML 1.0	Basic text, images, and links
@@ -49,9 +51,97 @@ Better mobile compatibility and responsive design.
 - XHTML	Stricter syntax, follows XML
 - HTML5	Multimedia, semantic tags, mobile-friendly
 
-What is the difference between HTML and HTML5?
-What are the key features of HTML5?
-What is the structure of an HTML document?
+# What is the difference between HTML and HTML5?
+### html:
+- Requires third-party plugins (e.g., Flash)
+- Uses external plugins (e.g., Flash, Silverlight)
+- No dedicated semantic tags
+- Requires JavaScript for validation
+- Not mobile-friendly
+- Limited support for APIs
+- No built-in offline support
+- Slower, requires additional plugins
+
+### html5:
+- Native support for audio and video elements
+- Supports canvas and svg for graphics and animations
+- Introduces new tags like header, footer, article, section for better structure
+- Native support for validation (required, email, number, etc.)
+- Designed for responsiveness and mobile compatibility
+- Supports new APIs (Geolocation, Web Storage, WebSockets, etc.)
+- Provides Web Storage & Cache API for offline use
+
+# What are the key features of HTML5?
+-  New semantic elements
+- Multimedia suppport(Audio&Video)
+- canvas&SVG for graphics
+- improved form controls and validation
+- web storage(loal&session storage)
+- Geolocation API.
+- Webstacks for real-time environment
+- Responsive web design and mobile optimization
+- offline web applications
+# What is the structure of an HTML document?
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>This is a simple HTML page structure.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- External JavaScript -->
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 What is the purpose of the <DOCTYPE> declaration?
 What is the difference between block-level and inline elements?
 What is the difference between <div> and <span>?
