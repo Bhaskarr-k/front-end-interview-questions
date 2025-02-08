@@ -122,54 +122,67 @@ Better mobile compatibility and responsive design.
 </html>
 
 
+# What is the purpose of the <DOCTYPE> declaration?
+- the doctype declaration in HTML specifies the Document definition that web page adhere to 
+- it helps web browers determine how to render the page correctly.
+### purpose of <doctype>:
+- ensures the broswer renders the page in **standards mode** following modren web standards.
+- without it browser may enter **quirks mode** where they attempt to nimic older non-standard behaviour for compatibility 
+### defines the HTML version:
+- specifies which verison of HTML the doucment followes.
+- in modren web development <doctype> is use for HTML5
+
+# What is the difference between block-level and inline elements?
+- in HTML elements are categorized block level or inline based on how they behave in the document flow.
+### block level elements:
+- block level elements stsrt on a new line and take up the full width availble.
+- always start on a anew line- take up the full width of the parent container
+- can contain other block level or inline elements- respect height and wdith properties
+- **common block level elements**
+- <div>,<p>,<section><article><header>
+### inline elements:
+- inline elements od not start on a new line and only tke up as much width as necessary
+- stay on the same line as surronding text for elements- take up only as much width as their ocntent requires
+- cannot contain block level eelementes 
+- heigh and width properties have no effect
+- **common inline elements**
+- <span><a><strong><em><img>
+# What is the difference between <div> and <span>?
+- both **div** and **span** are container elements in HTML but they serve diffrent purpose in structuring and styling content
+### div:
+- a div is a block level element use to group ohter elements together
+- it takes up the full width of its container and starts on a new line
+- commonly used folayout structturing and grouping related content.
+### span:
+- a span is an inline element use to wrap a portion of text or other inline elements for styling purposes
+- it only takes up as much widht as its its conent requires
+
+# What are HTML attributes?
+
+- What is the difference between the <section>, <article>, and <div> elements?
+- How do you create a hyperlink in HTML?
+- What is the difference between absolute and relative URLs?
+- What is the purpose of the <meta> tag?
+- What is the difference between <strong> and <b>, and between <em> and <i>?
+- What are semantic HTML elements? Give some examples.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-What is the purpose of the <DOCTYPE> declaration?
-What is the difference between block-level and inline elements?
-What is the difference between <div> and <span>?
-What are HTML attributes?
-What is the difference between the <section>, <article>, and <div> elements?
-How do you create a hyperlink in HTML?
-What is the difference between absolute and relative URLs?
-What is the purpose of the <meta> tag?
-What is the difference between <strong> and <b>, and between <em> and <i>?
-What are semantic HTML elements? Give some examples.
-
-
-
-What are HTML forms and what are the different form elements?
-How do you create a table in HTML?
-What are the different input types in HTML5?
-What is the difference between id and class attributes?
-What is the alt attribute in the <img> tag used for?
-What is the difference between the <label> tag and the for attribute?
-What are the new form elements introduced in HTML5?
-What is the difference between localStorage, sessionStorage, and cookies?
-What is the purpose of the <canvas> and <svg> elements?
-What is the difference between <iframe>, <embed>, and <object>?
-What is the use of the data-* attribute in HTML5?
-How do you make an image responsive in HTML?
-How do you create a dropdown list in HTML?
-What is the difference between <ol>, <ul>, and <dl>?
-What is lazy loading in HTML? How do you implement it?
+- What are HTML forms and what are the different form elements?
+- How do you create a table in HTML?
+- What are the different input types in HTML5?
+- What is the difference between id and class attributes?
+- What is the alt attribute in the <img> tag used for?
+- What is the difference between the <label> tag and the for attribute?
+- What are the new form elements introduced in HTML5?
+- What is the difference between localStorage, sessionStorage, and cookies?
+- What is the purpose of the <canvas> and <svg> elements?
+- What is the difference between <iframe>, <embed>, and <object>?
+- What is the use of the data-* attribute in HTML5?
+- How do you make an image responsive in HTML?
+- How do you create a dropdown list in HTML?
+- What is the difference between <ol>, <ul>, and <dl>?
+- What is lazy loading in HTML? How do you implement it?
 Advanced HTML Interview Questions
 How does the browser render an HTML page?
 What are web components?
