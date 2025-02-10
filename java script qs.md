@@ -250,3 +250,121 @@ import { greet } from "./module.js";
 console.log(greet());
 # how can you prevent a function fom being called multiple times?
 - you can use a debunce function
+
+function debounce(func, delay) {
+
+    let timeout;
+
+    return (..args) => {
+
+        clearTimeout(timeout);
+
+        timeout = settimeout(() => func(...args), delay);
+    };
+
+}
+# what is the event loop?
+- the event loop process tasks from the queue stack for asynchronous operations.
+
+console.log("start");
+
+setTimeout(() => console.log("timeout"), 0);
+
+console.log("end");
+
+# what is the diffrence between apply() and call() methods?
+### call:
+- invokes a funtion with a specific this value and arguments passed individually.
+### apply():
+- similar to call() but arguments are passed as an array.
+
+function greet(greeting, punctuation) {
+
+    return `{greeting}, ${this.name}${punctuation}`;
+
+}
+
+const person = { name: "basu"};
+
+console.log(greet.call(person,"hello","!"));  //hello siva
+
+console.log(greet.apply("hi","."));  hi siva
+
+# what is bind() method used for?
+- the bind() method creates a new function with a specific this value and optional arguments
+
+const obj = {name: "siva"};
+
+function.greet(greeting) {
+
+    return `${greeting},${this.name}`;
+
+}
+
+const bounceGreet = greet.bind(obj);
+
+console.log(bounceGreet("hello"));
+# what is javascript event loop?
+- the event loop consinuously checks the call stacck and the task queue , exectuing tasks from the queue when the stack is wmpty.
+
+console.log("start");
+
+setTimeout(() => {
+
+    console.log("timeout callback");
+
+},1000);
+
+console.log("end");
+# explain the concept of event buikding and event capturing?
+### event building:  
+- events propagate from the target element to the parent elements.
+### event capturing:
+- events propagate from the parent elements tot he target element.
+
+document.getElementByid("child").addEventListener("click" () =>
+
+console.log("child"), true);
+
+document.getElementByid("parent").addEventListener("click", () =>
+
+console.log("parent"));
+# what is diffrence between shallow copy and deep copy?
+- **shallow copy**: copies tonly the first layer of an object
+- **deep copy**: copies all layesrs of an object
+
+let obj = {a: 1, b: {c: 2}};
+
+let shallow {..obj};
+
+let deep = JSON.parse(JSON.stringify(obj));
+# what are generator funtions?
+- generators are special functions that pause execution and resume later
+
+function generator() {
+
+    yield1;
+
+    yield2;
+
+    yield3;
+
+}
+
+const gen = generator();
+
+console.log(gen.next().value);
+
+console.log(gen.next().value);
+# what is the new keyword used for?
+- the new keyword creates an instance of an oobjet from a constructor function.
+
+function person(name) {
+
+    this.name = name;
+
+}
+
+const person = new Person("siva");
+
+console.log(person.name);
