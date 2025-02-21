@@ -368,3 +368,6 @@ function person(name) {
 const person = new Person("siva");
 
 console.log(person.name);
+
+# what is throw in javascript?
+- it is throw error manually
